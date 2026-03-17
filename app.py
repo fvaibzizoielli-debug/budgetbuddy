@@ -104,7 +104,7 @@ def convert_to_chf(amount, from_currency):
         st.warning(f"API-Fehler: Konnte {from_currency} nicht umrechnen.")
         return amount
 
-# ====================== MACHINE LEARNING (selbst geschrieben) ======================
+# ====================== MACHINE LEARNING ======================
 def linear_regression_from_scratch(x, y):
     n = len(x)
     if n < 2:
@@ -239,7 +239,7 @@ if not filtered_df.empty:
 else:
     st.info("Füge Ausgaben hinzu, um Diagramme zu sehen!")
 
-st.header("🔮 KI-Vorhersagen (selbst geschrieben)")
+st.header("🔮 KI-Vorhersagen")
 if st.button("📈 Vorhersage aktualisieren"):
     st.rerun()
 predicted_spending, info = predict_next_month_spending(df)
@@ -264,4 +264,4 @@ if not df.empty:
 else:
     st.info("Noch keine Ausgaben – starte mit dem Formular oben!")
 
-st.caption("BudgetBuddy © 2026 | Lineare Regression selbst implementiert | Perfekt für deine CS-Lecture!")
+st.caption("BudgetBuddy © 2026")
