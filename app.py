@@ -4,13 +4,9 @@ import numpy as np
 import requests
 from datetime import datetime, timedelta
 import sqlite3
-import plotly.express as px   # ← THIS LINE WAS MISSING – NOW ADDED!
+import plotly.express as px
 
-# =============================================
 # BUDGETBUDDY – Sparziel-Tracker für Schweizer Studierende
-# =============================================
-# Dies ist die komplette App in EINER Datei
-# Erfüllt ALLE 6 Kriterien mit minimalem Code
 
 st.set_page_config(page_title="BudgetBuddy", page_icon="💰", layout="centered")
 
