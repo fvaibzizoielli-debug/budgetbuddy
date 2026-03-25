@@ -168,7 +168,7 @@ settings = load_settings()
 df = load_expenses()
 
 st.title("💰 BudgetBuddy – Sparziel-Tracker (Schweiz)")
-st.markdown("**Dein persönlicher Helfer gegen Geldsorgen** – mit selbst geschriebener KI-Vorhersage!")
+st.markdown("**Dein persönlicher Helfer gegen Geldsorgen**)
 
 with st.sidebar:
     st.header("⚙️ Einstellungen")
